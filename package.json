@@ -1,0 +1,136 @@
+{
+  "name": "vscode-tmux-keybinding",
+  "displayName": "Tmux Keybinding",
+  "description": "A simple extension for tmux behavior in vscode terminal.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StephLin/vscode-tmux-keybinding.git"
+  },
+  "publisher": "stephlin",
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+b c",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 1",
+        "command": "workbench.action.terminal.focusAtIndex1",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 2",
+        "command": "workbench.action.terminal.focusAtIndex2",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 3",
+        "command": "workbench.action.terminal.focusAtIndex3",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 4",
+        "command": "workbench.action.terminal.focusAtIndex4",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 5",
+        "command": "workbench.action.terminal.focusAtIndex5",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 6",
+        "command": "workbench.action.terminal.focusAtIndex6",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 7",
+        "command": "workbench.action.terminal.focusAtIndex7",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 8",
+        "command": "workbench.action.terminal.focusAtIndex8",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b 9",
+        "command": "workbench.action.terminal.focusAtIndex9",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b shift+5",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b alt+up",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b alt+down",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b alt+left",
+        "command": "workbench.action.terminal.resizePaneLeft",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b alt+right",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b d",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b w",
+        "command": "workbench.action.quickOpenTerm",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b z",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "shift+right",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+      },
+      {
+        "key": "shift+left",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+      }
+    ]
+  }
+}
