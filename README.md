@@ -1,5 +1,7 @@
 # VSCode Tmux Keybinding
 
+<img src="https://raw.githubusercontent.com/StephLin/vscode-tmux-keybinding/master/images/icon.png" height="128">
+
 [![https://marketplace.visualstudio.com/items?itemName=stephlin.vscode-tmux-keybinding](https://vsmarketplacebadge.apphb.com/version/stephlin.vscode-tmux-keybinding.svg)](https://marketplace.visualstudio.com/items?itemName=stephlin.vscode-tmux-keybinding)
 [![](https://vsmarketplacebadge.apphb.com/installs-short/stephlin.vscode-tmux-keybinding.svg)](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
