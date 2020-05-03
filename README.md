@@ -13,7 +13,7 @@ This is a simple extension for tmux behavior in vscode terminal.
 | --------------------------- | ------------------------------------------------ | --------------- |
 | `ctrl+b c`                  | `workbench.action.terminal.newInActiveWorkspace` | `terminalFocus` |
 | `ctrl+b shift+5`            | `workbench.action.terminal.split`                | `terminalFocus` |
-| `ctrl+b shift+7`            | `workbench.action.terminal.kill`                 | `terminalFocus` |
+| `ctrl+b x`                  | `workbench.action.terminal.kill`                 | `terminalFocus` |
 | `ctrl+b alt+up`             | `workbench.action.terminal.resizePaneUp`         | `terminalFocus` |
 | `ctrl+b alt+down`           | `workbench.action.terminal.resizePaneDown`       | `terminalFocus` |
 | `ctrl+b alt+left`           | `workbench.action.terminal.resizePaneLeft`       | `terminalFocus` |
