@@ -3,7 +3,7 @@
   "displayName": "Tmux Keybinding",
   "description": "A simple extension for tmux behavior in vscode terminal.",
   "icon": "images/icon.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.43.0"
   },
