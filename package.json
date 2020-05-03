@@ -141,6 +141,11 @@
         "key": "ctrl+b left",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
+      },
+      {
+        "key": "ctrl+b x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
       }
     ]
   }
