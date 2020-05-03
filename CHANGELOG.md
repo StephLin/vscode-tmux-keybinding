@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.0.5
+
+- BUG: Fixed keybind error in README.md
+
 ## Version 0.0.4
 
 - Add keybinds to close current pane
