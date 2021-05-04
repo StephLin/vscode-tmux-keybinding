@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.0.6
+
+- Added MIT license #1
+
 ## Version 0.0.5
 
 - BUG: Fixed keybind error in README.md
