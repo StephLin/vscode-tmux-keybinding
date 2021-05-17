@@ -148,12 +148,12 @@
         "when": "terminalFocus && panelPosition == 'bottom'"
       },
       {
-        "key": "ctrl+b up",
+        "key": "ctrl+b down",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus && panelPosition != 'bottom'"
       },
       {
-        "key": "ctrl+b down",
+        "key": "ctrl+b up",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus && panelPosition != 'bottom'"
       },
