@@ -27,8 +27,8 @@ This is a simple extension for tmux behavior in vscode terminal.
 | `shift+left`       | `workbench.action.terminal.focusPrevious`        | `terminalFocus`                              |
 | `ctrl+b right`     | `workbench.action.terminal.focusNextPane`        | `terminalFocus && panelPosition == 'bottom'` |
 | `ctrl+b left`      | `workbench.action.terminal.focusPreviousPane`    | `terminalFocus && panelPosition == 'bottom'` |
-| `ctrl+b up`        | `workbench.action.terminal.focusNextPane`        | `terminalFocus && panelPosition != 'bottom'` |
-| `ctrl+b down`      | `workbench.action.terminal.focusPreviousPane`    | `terminalFocus && panelPosition != 'bottom'` |
+| `ctrl+b down`      | `workbench.action.terminal.focusNextPane`        | `terminalFocus && panelPosition != 'bottom'` |
+| `ctrl+b up`        | `workbench.action.terminal.focusPreviousPane`    | `terminalFocus && panelPosition != 'bottom'` |
 | `ctrl+b 1`         | `workbench.action.terminal.focusAtIndex1`        | `terminalFocus`                              |
 | `ctrl+b 2`         | `workbench.action.terminal.focusAtIndex2`        | `terminalFocus`                              |
 | `ctrl+b 3`         | `workbench.action.terminal.focusAtIndex3`        | `terminalFocus`                              |
