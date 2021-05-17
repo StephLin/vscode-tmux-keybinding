@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.0.7
+
+- ENH: Behavior of horizontal layout #2
+
 ## Version 0.0.6
 
 - Added MIT license #1
